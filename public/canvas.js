@@ -29,7 +29,24 @@
 	context.lineTo(155,115);
 	context.lineTo(155,150);
 //	context.lineTo(90,15);
+	context.stroke();
 
+	context.beginPath();
+	context.moveTo(195,95);
+	context.lineTo(180,95);
+	context.lineTo(200,115);
+	context.lineTo(215,115);
+	context.lineTo(195,95);
+	context.stroke();
+
+	context.beginPath();
+	context.moveTo(165,105);
+	context.lineTo(170,95);
+	context.lineTo(195,85);
+	context.lineTo(185,95);
+	context.lineTo(165,105);
+	/*context.lineTo(215,115);
+	context.lineTo(195,95);*/
 	context.stroke();
 
 
