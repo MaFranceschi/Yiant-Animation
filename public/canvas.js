@@ -37,8 +37,8 @@
 	context.beginPath();
 	context.moveTo(195,95);
 	context.lineTo(180,95);
-	context.lineTo(200,75);
-	context.lineTo(215,75);
+	context.lineTo(170,85);
+	context.lineTo(185,85);
 	context.lineTo(195,95);
 	context.fillStyle = "red";
 	context.fill();
@@ -46,9 +46,9 @@
 
 	context.beginPath();
 	context.moveTo(165,105);
-	context.lineTo(170,95);
-	context.lineTo(195,75);
-	context.lineTo(180,95);
+	context.lineTo(160,100);
+	context.lineTo(175,95);
+	context.lineTo(180,100);
 	context.lineTo(165,105);
 	context.fillStyle = "blue";
 	context.fill();
