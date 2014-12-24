@@ -15,6 +15,8 @@
 	context.lineTo(130,90);
 	context.lineTo(150,115);
 	context.lineTo(150,150);
+	context.fillStyle = "black";
+	context.fill();
 	context.stroke();
 
 	context.beginPath();
@@ -24,29 +26,32 @@
 	context.lineTo(195,100);
 	context.lineTo(180,100);
 	context.lineTo(165,110);
-	context.lineTo(140,75);
-	context.lineTo(140,90);
+	context.lineTo(150,90);
+	context.lineTo(135,90);
 	context.lineTo(155,115);
 	context.lineTo(155,150);
-//	context.lineTo(90,15);
+	context.fillStyle = "purple";
+	context.fill();
 	context.stroke();
 
 	context.beginPath();
 	context.moveTo(195,95);
 	context.lineTo(180,95);
-	context.lineTo(200,115);
-	context.lineTo(215,115);
+	context.lineTo(200,75);
+	context.lineTo(215,75);
 	context.lineTo(195,95);
+	context.fillStyle = "red";
+	context.fill();
 	context.stroke();
 
 	context.beginPath();
 	context.moveTo(165,105);
 	context.lineTo(170,95);
-	context.lineTo(195,85);
-	context.lineTo(185,95);
+	context.lineTo(195,75);
+	context.lineTo(180,95);
 	context.lineTo(165,105);
-	/*context.lineTo(215,115);
-	context.lineTo(195,95);*/
+	context.fillStyle = "blue";
+	context.fill();
 	context.stroke();
 
 
