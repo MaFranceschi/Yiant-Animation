@@ -65,7 +65,7 @@ function drawY()
 					}
 					lun--;
 					console.log(lun);
-				},1000);
+				},700);
 			}
 			else
 			{
@@ -88,7 +88,7 @@ function drawY()
 					}
 					lin--;
 					console.log(lin);
-				},1000);
+				},700);
 			}
 		}
 		else
@@ -112,7 +112,7 @@ function drawY()
 				}
 				len--;
 				console.log(len);
-			},1000);
+			},700);
 		}
 	}
 	else
@@ -135,7 +135,7 @@ function drawY()
 		lon--;
 		console.log(lon);
 	}
-	},1000);
+	},700);
 
 };
 
