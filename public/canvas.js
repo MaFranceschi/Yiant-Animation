@@ -10,14 +10,15 @@ function Point(x,y) {
     this.y = y;
 }
 
-var points = [new Point(150,150), new Point(140,150), new Point(140,110), new Point(95,60), new Point(105,55), new Point(150,105), new Point(150,150)];
+var points = [new Point(250,200), new Point(236,200), new Point(236,146), new Point(187,73), new Point(196,62), 
+new Point(250,142), new Point(250,200)];
 
-var points2 = [new Point(155,150), new Point(165,145), new Point(165,105), new Point(200,65), new Point(185,65),
- new Point(160,95), new Point(125,55), new Point(110,55), new Point(155,105), new Point(155,150)];
+var points2 = [new Point(255,197), new Point(269,184), new Point(269,141), new Point(311,76), new Point(293,76),
+ new Point(262,127), new Point(218,60), new Point(201,60), new Point(255,141), new Point(255,197)];
 
-var points3 = [new Point(160,90), new Point(182,62), new Point(175,56), new Point(153,83), new Point(160,90)];
+var points3 = [new Point(262,118), new Point(289,73), new Point(282,62), new Point(254,107), new Point(262,118)];
 
-var points4 = [new Point(200,60), new Point(185,60), new Point(178,53), new Point(192,53), new Point(200,60)];
+var points4 = [new Point(296,71), new Point(311,71), new Point(304,60), new Point(289,60), new Point(296,71)];
 
 var count = 0;
 var cont = 0;
@@ -59,13 +60,17 @@ function drawY()
 					context.lineTo(point4.x,point4.y);
 					context.strokeStyle = azul;
 					context.stroke();
-					if(count == points.length)
-					{	context.fillStyle = azul;
+						context.fillStyle = azul;
 						context.fill();
-					}
+					
 					lun--;
 					console.log(lun);
 				},700);
+	/*			if(cant === points4.length)
+				{
+					context.clearRect(0,0,300,200);
+					requestAnimationFrame(drawY);
+				}*/
 			}
 			else
 			{
@@ -82,10 +87,10 @@ function drawY()
 					context.lineTo(point3.x,point3.y);
 					context.strokeStyle = turqueza;
 					context.stroke();
-					if(cunt == points3.length)
-					{	context.fillStyle = turqueza;
+
+						context.fillStyle = turqueza;
 						context.fill();
-					}
+					
 					lin--;
 					console.log(lin);
 				},700);
@@ -106,8 +111,9 @@ function drawY()
 				context.lineTo(point2.x,point2.y);
 				context.strokeStyle = violeta;
 				context.stroke();
-				if(cont == points2.length)
-				{	context.fillStyle = violeta;
+				if(cont === points2.length)
+				{
+				context.fillStyle = violeta;
 					context.fill();
 				}
 				len--;
@@ -128,8 +134,9 @@ function drawY()
 		context.lineTo(point.x,point.y);
 		context.strokeStyle = turqueza;
 		context.stroke();
-		if(count == points.length)
-		{	context.fillStyle = turqueza;
+		if(count === points.length)
+		{
+			context.fillStyle = turqueza;
 			context.fill();
 		}
 		lon--;
