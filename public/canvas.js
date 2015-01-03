@@ -10,15 +10,15 @@ function Point(x,y) {
     this.y = y;
 }
 
-var points = [new Point(250,200), new Point(236,200), new Point(236,146), new Point(187,73), new Point(196,62), 
-new Point(250,142), new Point(250,200)];
+var points = [new Point(239,200), new Point(225,200), new Point(225,146), new Point(176,73), new Point(185,62), 
+new Point(239,142), new Point(239,200)];
 
-var points2 = [new Point(255,197), new Point(269,184), new Point(269,141), new Point(311,76), new Point(293,76),
- new Point(262,127), new Point(218,60), new Point(201,60), new Point(255,141), new Point(255,197)];
+var points2 = [new Point(244,197), new Point(258,184), new Point(258,141), new Point(300,76), new Point(282,76),
+ new Point(251,127), new Point(207,60), new Point(190,60), new Point(244,141), new Point(244,197)];
 
-var points3 = [new Point(262,118), new Point(289,73), new Point(282,62), new Point(254,107), new Point(262,118)];
+var points3 = [new Point(251,118), new Point(278,73), new Point(271,62), new Point(243,107), new Point(251,118)];
 
-var points4 = [new Point(296,71), new Point(311,71), new Point(304,60), new Point(289,60), new Point(296,71)];
+var points4 = [new Point(285,71), new Point(300,71), new Point(293,60), new Point(278,60), new Point(285,71)];
 
 var count = 0;
 var cont = 0;
