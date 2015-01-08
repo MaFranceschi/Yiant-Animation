@@ -15,7 +15,7 @@
 article {
 	display: block;
 	position: absolute;
-	left: 22em;
+	left: 30em;
 	top: 23em;
 }
 
@@ -27,7 +27,7 @@ body {
 
 canvas {
 	position: absolute;
-	left: 5em;
+	left: 13em;
 	top: 9em;
 }
 
@@ -38,7 +38,7 @@ canvas, div {
 
 div {
 	position: absolute;
-	left: 23em;
+	left: 31em;
 	line-height: 0.01em;
 	top: 14em;
 }
@@ -67,7 +67,7 @@ h6 {
 
 hr {
 	position: absolute;
-	left: 15em;
+	left: 23em;
 	top: 23em;
 	width: 600px;
 }
@@ -84,7 +84,7 @@ section {
 @media screen and (max-width:800px){
 	article, hr {
 		position: absolute;
-		left: 2.5em;
+		left: 1.5em;
 		top: 25em;
 	}
 
