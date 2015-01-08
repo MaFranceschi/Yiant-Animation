@@ -1,12 +1,15 @@
 @font-face {
      font-family: "GillSansMTPro";
-     src: url("../fonts/GillSansMTPro-Bold.otf");
+     src: url("../fonts/GillSansMTPro-Bold.eot");
+     src: url("../fonts/GillSansMTPro-Bold.woff") format('woff'), 
+     url("../fonts/GillSansMTPro-Bold.ttf") format('truetype');
 }
 
 @font-face {
 	 font-family: "GillSansLightItalic";
-     src: url("../fonts/GillSansMTPro-LightItalic.otf");
-
+     src: url("../fonts/GillSansMTPro-LightItalic.eot");
+     src: url("../fonts/GillSansMTPro-Bold.woff") format('woff'), 
+     url("../fonts/GillSansMTPro-Bold.ttf") format('truetype');
 }
 
 article {
