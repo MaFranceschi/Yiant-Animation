@@ -27,7 +27,8 @@ body {
 
 canvas {
 	position: absolute;
-	top: 7em;
+	left: 5em;
+	top: 9em;
 }
 
 canvas, div {
@@ -37,14 +38,18 @@ canvas, div {
 
 div {
 	position: absolute;
-	left: 320px;
+	left: 23em;
 	line-height: 0.01em;
-	top: 8em;
+	top: 14em;
+}
+
+figure {
+	display: none;
 }
 
 h1 {
 	border-bottom: 0;
-	font-size: 115pt;
+	font-size: 90pt;
 	margin-bottom: 0;
 	padding-bottom: 0.1em;
 }
@@ -55,9 +60,16 @@ h1, h6 {
 
 h6 {
 	font-family: GillSansLightItalic;
-	font-size: 18pt;
-	letter-spacing: 8.1px;
+	font-size: 15.3pt;
+	letter-spacing: 3.3px;
 	text-align: right;
+}
+
+hr {
+	position: absolute;
+	left: 15em;
+	top: 23em;
+	width: 600px;
 }
 
 p {
@@ -65,5 +77,33 @@ p {
 }
 
 section {
+	border-bottom: 1px solid black;
 	position: relative;
+}
+
+@media screen and (max-width:800px){
+	article, hr {
+		position: absolute;
+		left: 2.5em;
+		top: 25em;
+	}
+
+	hr {
+		width: 350px;
+	}
+
+	section {
+		display: none;
+	}
+
+	figure {
+		display: block;
+		margin: 4em;
+	}
+
+	figure img{
+		height: auto;
+		width: 300px;
+	}
+
 }
